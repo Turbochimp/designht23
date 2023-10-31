@@ -30,6 +30,7 @@ body {
 
 .main {
     flex: 1 0 auto;
+    margin: 0 3em;
 }
 
 .header, .footer {
@@ -43,10 +44,14 @@ body {
     justify-content: space-between;
 }
 
+.header {
+    background-image: linear-gradient(to bottom, gray, lightgray );
+}
+
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 3em 3em 3em 1em;
 }
 
 @media (max-width: 767px) {
@@ -73,12 +78,13 @@ body {
 
 .footer {
     display: flex;
+    background-color: gray;
     justify-content: space-between;
     border-top: 1px solid #222;
 }
 
 .footer a {
-    color: #222;
+    color: #111;
 }
 
 .footer .social {

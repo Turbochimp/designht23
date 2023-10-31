@@ -1,6 +1,6 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/256-214-Blue_wizard_hat_detail.png
+Tagline: Benjamin's portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/dbwebb-se/design-v3
