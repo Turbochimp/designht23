@@ -4,5 +4,5 @@ Tagline: Benjamin's portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Turbochimp/designht23
-      icon: github
+      icon: fab fa-github
 ---
