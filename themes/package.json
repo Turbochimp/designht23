@@ -7,7 +7,10 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass gandalf/scss/style.scss gandalf/css/style.css --no-source-map",
+    "style-min": "sass gandalf/scss/style.scss gandalf/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,7 @@
   "devDependencies": {
     "normalize-css": "^2.3.1",
     "sass": "^1.69.5",
-    "stylelint": "^15.11.0"
+    "stylelint": "^15.11.0",
+    "stylelint-config-sass-guidelines": "^10.0.0"
   }
 }
