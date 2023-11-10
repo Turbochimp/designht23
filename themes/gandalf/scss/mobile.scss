@@ -25,13 +25,9 @@
 
 
 @media (max-width: 767px) {
-
-
-
     .main[role="main"] {
-
-        ul{
-            padding:0;
+        ul {
+            padding: 0;
         }
 
         code {
@@ -44,7 +40,6 @@
         flex-direction: row;
 
         .site-header {
-
             .logo,
             .title {
                 margin: 0 auto;
@@ -54,7 +49,6 @@
 
             .title {
                 .a {
-
                     p,
                     h1 {
                         width: 90%;

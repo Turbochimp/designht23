@@ -3,30 +3,38 @@
     min-height: 30em;
     line-height: 1.4;
     max-width: 100%;
+
     * {
         margin: auto 2em;
     }
+
     * {
         margin-bottom: 1em;
+
         li {
             margin-bottom: 0.5em;
+
             code {
                 margin-left: .25em;
                 margin-right: .25em;
             }
         }
     }
+
     h1 {
         font-size: 2em;
         margin-bottom: 1.75em;
     }
+
     table {
         thead {
             border-bottom: solid $font-color 1px;
         }
+
         tbody {
             border-left: solid $font-color 1px;
             border-right: solid $font-color 1px;
+
             tr {
                 border-bottom: solid $font-color 1px;
             }

@@ -15,6 +15,7 @@
                 flex-wrap: wrap;
                 flex-direction: column;
                 color: $font-alternative-color;
+
                 p,
                 h1 {
                     justify-content: center;
@@ -23,11 +24,13 @@
                 }
             }
         }
+
         .logo {
             margin-left: 4em;
             width: 50%
         }
     }
+    
     ul {
         border-top: 1em solid $background-alternative-color;
         border-bottom: 1em solid $background-color;
