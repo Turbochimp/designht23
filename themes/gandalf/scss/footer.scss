@@ -1,0 +1,12 @@
+.footer {
+    background-color: $background-alternative-color;
+    box-shadow: 0 -.25em .5em 1em $background-alternative-color;
+    .container {
+        margin: 0 2em;
+        a, p {
+            color: $font-alternative-color;
+            font-size: 1.25em;
+        }
+    }
+    
+}

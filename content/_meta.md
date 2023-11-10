@@ -5,4 +5,8 @@ Social:
     - title: Link till sidans github repo.
       url: https://github.com/Turbochimp/designht23
       icon: fab fa-github
+
+    - title: Länk till discord
+      url: https://dbwebb.se/community
+      icon: fab fa-discord
 ---

@@ -1,0 +1,19 @@
+
+
+.main[role="main"] {
+    @include tema;
+    line-height: 1.4;
+    h1, p, ul {
+        margin: auto 4em;
+    }
+    p, ul {
+        margin-bottom: 1em;
+        li {
+            margin-bottom: 0.5em;
+        }
+    }
+    h1 {
+        font-size: 2em;
+        margin-bottom: 1.75em;
+    }
+}

@@ -6115,6 +6115,26 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.main[role=main] {
+  background: #ddd;
+  color: #333;
+  border: #4d7bee;
+  line-height: 1.4;
+}
+.main[role=main] h1, .main[role=main] p, .main[role=main] ul {
+  margin: auto 4em;
+}
+.main[role=main] p, .main[role=main] ul {
+  margin-bottom: 1em;
+}
+.main[role=main] p li, .main[role=main] ul li {
+  margin-bottom: 0.5em;
+}
+.main[role=main] h1 {
+  font-size: 2em;
+  margin-bottom: 1.75em;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6148,6 +6168,53 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+.header[role=banner] .site-header {
+  background: #333;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.header[role=banner] .site-header .title {
+  margin-left: 4em;
+  width: 50%;
+}
+.header[role=banner] .site-header .title a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #ddd;
+}
+.header[role=banner] .site-header .title a p,
+.header[role=banner] .site-header .title a h1 {
+  justify-content: center;
+  max-width: 30%;
+  color: #ddd;
+}
+.header[role=banner] .site-header .logo {
+  margin-left: 4em;
+  width: 50%;
+}
+.header[role=banner] ul {
+  border-top: 1em solid #333;
+  border-bottom: 1em solid #ddd;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: linear-gradient(to bottom, #333, 10%, #ddd);
+}
+
+.footer {
+  background-color: #333;
+  box-shadow: 0 -0.25em 0.5em 1em #333;
+}
+.footer .container {
+  margin: 0 2em;
+}
+.footer .container a, .footer .container p {
+  color: #ddd;
+  font-size: 1.25em;
 }
 
 .slide {
@@ -6202,14 +6269,23 @@ pre code {
   }
 }
 body {
-  background-color: #3d5a80;
+  background: #333;
+  color: #333;
+  border: #4d7bee;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 * {
-  color: #000;
+  color: #333;
   font-family: "Roboto", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 16px;
 }
