@@ -8,9 +8,11 @@
     justify-content: flex-end;
     padding: 1em 0;
     list-style: none;
+
     li {
         padding: 0 1em;
     }
+
     a {
         color: #333;
     }
@@ -23,33 +25,70 @@
 
 
 @media (max-width: 767px) {
-    .header {
-        flex-direction: column;
-    }
 
-    .nav ul {
-        flex-direction: column;
-        padding-bottom: 1em;
 
-        li {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            a {
-                display: block;
-                padding: 0.5em 0;
+
+    .main[role="main"] {
+
+        ul{
+            padding:0;
+        }
+
+        code {
+            display: block;
+            white-space: pre-wrap
         }
     }
 
-    .js .nav-toggle {
-        display: block;
-        float: right;
-        width: 2em;
-        margin: 0.6667em 0;
-        font-size: 1.5rem;
-        line-height: 2em;
-        text-align: center;
-        cursor: pointer;
+    .header[role="banner"] {
+        flex-direction: row;
+
+        .site-header {
+
+            .logo,
+            .title {
+                margin: 0 auto;
+                display: flex;
+
+            }
+
+            .title {
+                .a {
+
+                    p,
+                    h1 {
+                        width: 90%;
+                    }
+                }
+            }
+        }
+
+
+        .nav ul {
+            flex-direction: column;
+            padding-bottom: 1em;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                a {
+                    display: block;
+                    padding: 0.5em 0;
+                }
+            }
+
+            .js .nav-toggle {
+                display: block;
+                float: right;
+                width: 2em;
+                margin: 0.6667em 0;
+                font-size: 1.5rem;
+                line-height: 2em;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
     }
-}
 }

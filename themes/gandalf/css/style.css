@@ -6119,20 +6119,36 @@ readers do not read off random characters that represent icons */
   background: #ddd;
   color: #333;
   border: #4d7bee;
+  min-height: 30em;
   line-height: 1.4;
+  max-width: 100%;
 }
-.main[role=main] h1, .main[role=main] p, .main[role=main] ul {
-  margin: auto 4em;
+.main[role=main] * {
+  margin: auto 2em;
 }
-.main[role=main] p, .main[role=main] ul {
+.main[role=main] * {
   margin-bottom: 1em;
 }
-.main[role=main] p li, .main[role=main] ul li {
+.main[role=main] * li {
   margin-bottom: 0.5em;
+}
+.main[role=main] * li code {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
 .main[role=main] h1 {
   font-size: 2em;
   margin-bottom: 1.75em;
+}
+.main[role=main] table thead {
+  border-bottom: solid #333 1px;
+}
+.main[role=main] table tbody {
+  border-left: solid #333 1px;
+  border-right: solid #333 1px;
+}
+.main[role=main] table tbody tr {
+  border-bottom: solid #333 1px;
 }
 
 blockquote {
@@ -6190,7 +6206,7 @@ pre code {
 .header[role=banner] .site-header .title a p,
 .header[role=banner] .site-header .title a h1 {
   justify-content: center;
-  max-width: 30%;
+  width: 100%;
   color: #ddd;
 }
 .header[role=banner] .site-header .logo {
@@ -6206,14 +6222,14 @@ pre code {
 }
 
 .footer {
-  background-color: #333;
-  box-shadow: 0 -0.25em 0.5em 1em #333;
+  background-image: linear-gradient(to top, #333, 10%, #ddd);
+  background-color: #ddd;
 }
 .footer .container {
   margin: 0 2em;
 }
 .footer .container a, .footer .container p {
-  color: #ddd;
+  color: #333;
   font-size: 1.25em;
 }
 
@@ -6241,23 +6257,39 @@ pre code {
 }
 
 @media (max-width: 767px) {
-  .header {
-    flex-direction: column;
+  .main[role=main] ul {
+    padding: 0;
   }
-  .nav ul {
+  .main[role=main] code {
+    display: block;
+    white-space: pre-wrap;
+  }
+  .header[role=banner] {
+    flex-direction: row;
+  }
+  .header[role=banner] .site-header .logo,
+  .header[role=banner] .site-header .title {
+    margin: 0 auto;
+    display: flex;
+  }
+  .header[role=banner] .site-header .title .a p,
+  .header[role=banner] .site-header .title .a h1 {
+    width: 90%;
+  }
+  .header[role=banner] .nav ul {
     flex-direction: column;
     padding-bottom: 1em;
   }
-  .nav ul li {
+  .header[role=banner] .nav ul li {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  .nav ul li a {
+  .header[role=banner] .nav ul li a {
     display: block;
     padding: 0.5em 0;
   }
-  .nav ul .js .nav-toggle {
+  .header[role=banner] .nav ul .js .nav-toggle {
     display: block;
     float: right;
     width: 2em;
