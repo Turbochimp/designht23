@@ -14,7 +14,18 @@ Besöks sidan via en telefon eller annan liten enhet ska gridet istället vara e
 <body>
     {% include 'incl/nav.twig' %}
     <div class="main" role="main">
-        <div class="grid wrapper">
+        <div class="smallgrid smallwrap">
+            <div class="link-list">
+                <ul class="links">
+                    <li><a href="?technology/css">CSS</a></li>
+                    <li><a href="?technology/html">HTML</a></li>
+                    <li><a href="?technology/javascript">JavaScript</a></li>
+                    <li><a href="?technology/php">PHP</a></li>
+                    <li><a href="?technology/python">Python</a></li>
+                    <li><a href="?technology/git">Git</a></li>
+                    <li><a href="?technology/sqlite">SQLite</a></li>
+                </ul>
+            </div>
             {{ content }}
         </div>
     </div>

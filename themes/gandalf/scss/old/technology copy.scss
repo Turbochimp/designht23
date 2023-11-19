@@ -1,0 +1,79 @@
+.grid {
+    display: grid;
+    gap: 1em 1em;
+    margin: unset;
+    margin-bottom: 1em;
+    h1, h2, h3 {
+        text-align: center;
+    }
+    a:hover {
+        color: blue;
+    }
+    .heading {
+        grid-column: 1 / 3;
+        grid-row: 1/1
+    }
+    .grid.articles {
+        grid-column: 1 / 3;
+        grid-row: 2 / 2;
+        grid-template-areas: 
+        "css html html"
+        "js js php"
+        "py py py"
+        "git sqlt sqlt"
+        ;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-gap: 25px;
+        .box {
+            margin: unset;
+
+        }
+    }
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 150px 900px;
+}
+
+.box {
+    background-color: #eee;
+    border: 2px solid $background-alternative-color;
+}
+
+.grid.wrapper{
+    margin: 0 auto;
+}
+
+// .wgrid {
+//     margin: unset;
+// }
+
+.css { grid-area: css; }
+
+.html { grid-area: html; }
+
+.js { grid-area: js; }
+
+.php { grid-area: php; }
+
+.py { grid-area: py; }
+
+.git { grid-area: git; }
+
+.sqlt { grid-area: sqlt; }
+
+
+
+// .landingpage {
+//     display: grid;
+//     gap: 1em 1em;
+
+//     h1 {
+//         grid-column: span 3;
+//         justify-self: center;
+//     }
+// }

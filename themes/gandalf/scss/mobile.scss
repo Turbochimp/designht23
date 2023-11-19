@@ -86,3 +86,37 @@
         }
     }
 }
+
+@media (max-width: 1300px) {
+    .wrapper {
+        max-width: 620px;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(100px, auto);
+        grid-template-areas: 
+        "h1"
+        "css"
+        "html"
+        "js"
+        "php"
+        "py"
+        "git"
+        "sqlt"
+        ;
+    }
+}
+
+@media (max-width: 700px ) {
+    .wrapper {
+        max-width: 350px;
+    }
+    .smallwrap {
+        .link-list {
+            visibility: collapse;
+        }
+        .text {
+            grid-column: 1 / 3;
+            grid-row: 2 / 2;
+        }
+    }
+
+}
