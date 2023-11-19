@@ -6233,6 +6233,15 @@ pre code {
   font-size: 1.25em;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
