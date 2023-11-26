@@ -9,4 +9,12 @@ Social:
     - title: Länk till discord
       url: https://dbwebb.se/community
       icon: fab fa-discord
+
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

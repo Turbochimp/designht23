@@ -10,7 +10,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass gandalf/scss/style.scss gandalf/css/style.css --no-source-map",
-    "style-min": "sass gandalf/scss/style.scss gandalf/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass gandalf/scss/style.scss gandalf/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass kmom02/scss/style-dark.scss gandalf/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass kmom02/scss/style-dark.scss gandalf/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass kmom02/scss/style.scss gandalf/css/style.css --no-source-map",
+    "style-light-min": "sass kmom02/scss/style.scss gandalf/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

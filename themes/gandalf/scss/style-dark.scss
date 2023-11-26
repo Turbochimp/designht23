@@ -1,0 +1,43 @@
+@import '../../shared/fontawesome/scss/fontawesome';//fonts
+$fa-font-path: '../../shared/fontawesome/webfonts';//fonts
+@import '../../shared/fontawesome/scss/brands';//fonts
+@import '../../shared/fontawesome/scss/solid';//fonts
+@import '../../shared/fontawesome/scss/regular'; //fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import '../../node_modules/normalize-css/normalize.css';
+
+@import 'variables';
+@import 'content';
+@import 'blockquotes';
+@import 'code';
+@import 'header';
+@import 'footer';
+@import 'technology';
+@import 'mobile';
+
+
+body {
+    @include tema($bg: $background-alternative-color);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Roboto', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.main {
+    background-color: black;
+}
