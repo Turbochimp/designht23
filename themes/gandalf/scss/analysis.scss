@@ -1,0 +1,127 @@
+.main[role="main"] {
+    .gridAnalysis {
+        margin: 0 auto;
+        .subGridA {
+            margin: 0 1em;
+
+            .tables {
+                margin:auto;
+                th {
+                    width: 100px;
+                    text-align: center;
+                }
+            }
+
+            .r1, .r2, .r3 {
+                margin: 0;
+                h2, p {
+                    a {margin: 0;}
+                }
+            }
+
+            .r2 {
+                border-left: 2px double #2a2a2a;
+                border-right: 2px double #2a2a2a;
+            }
+        }
+    }
+    
+}
+
+
+.gridAnalysis {
+    display: grid;
+    gap: 1em 1em;
+    margin: unset;
+    margin-bottom: 1em;
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    a:hover {
+        color: $accent-color;
+    }
+
+    * {
+        margin: 0
+    }
+
+    .box {
+        margin: unset;
+    }
+}
+
+.wrapperAnalysis {
+    max-width: 1280px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px repeat(6, 400px);
+    grid-template-areas: 
+    "h1"
+    "urv"
+    "met"
+    "res"
+    "ana"
+    "ref"
+    "etc"
+    ;
+}
+
+.subGridA {
+    display: grid;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.subWrapA {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px 350px;
+    grid-template-areas: "h2 h2 h2" "r1 r2 r3";
+}
+
+.subWrapB {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 50px 350px;
+    grid-template-areas: "h2 h2 h2" "tbls r1 r1";
+}
+
+.box {
+    background-color: #eee;
+    border: 2px solid $background-alternative-color;
+}
+
+.grid.wrapper, .smallgrid.smallwrap{
+    margin: 1em auto;
+}
+
+// .wgrid {
+//     margin: unset;
+// }
+
+h1 {grid-area: h1;}
+h2 {grid-area: h2;}
+h3 {grid-area: h3;}
+
+.urv { grid-area: urv; }
+.met { grid-area: met; }
+.res { grid-area: res; }
+.ana { grid-area: ana; }
+.ref { grid-area: ref; }
+.etc { grid-area: etc; }
+.tables {grid-area: tbls }
+
+.r1 { grid-area: r1; }
+.r2 { grid-area: r2; }
+.r3 { grid-area: r3; }
+
+
+// .landingpage {
+//     display: grid;
+//     gap: 1em 1em;
+
+//     h1 {
+//         grid-column: span 3;
+//         justify-self: center;
+//     }
+// }

@@ -4,6 +4,8 @@ Description: This is my technologies page
 Template: technologies
 ---
 
+<div class="grid wrapper">
+
 Technologies
 ==============
 
@@ -46,4 +48,5 @@ Technologies
 <div class="box sqlt">
 <h3><a href="%base_url%?technology/sqlite">SQLite</a></h3>
 <p>SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL). Datatyper som man kan använda sig av är begränsade i förhållande till exempelvis MySQL eller PostGreSQL.</p>
+</div>
 </div>

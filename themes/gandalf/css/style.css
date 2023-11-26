@@ -6243,7 +6243,7 @@ pre code {
   text-align: center;
 }
 .grid a:hover {
-  color: blue;
+  color: #4d7bee;
 }
 .grid .box {
   margin: unset;
@@ -6278,7 +6278,7 @@ pre code {
   grid-row: 1/1;
 }
 .smallwrap .text {
-  margin: 4px 4px auto 4px;
+  margin: 4px 4px auto;
   grid-column: 2/2;
   grid-row: 2/2;
 }
@@ -6287,7 +6287,7 @@ pre code {
   grid-row: 3/3;
 }
 .smallwrap .link-list {
-  margin: 4px 4px auto 4px;
+  margin: 4px 4px auto;
   grid-column: 1/1;
   grid-row: 2/3;
 }
@@ -6335,6 +6335,136 @@ h1 {
 
 .sqlt {
   grid-area: sqlt;
+}
+
+.main[role=main] .gridAnalysis {
+  margin: 0 auto;
+}
+.main[role=main] .gridAnalysis .subGridA {
+  margin: 0 1em;
+}
+.main[role=main] .gridAnalysis .subGridA .tables {
+  margin: auto;
+}
+.main[role=main] .gridAnalysis .subGridA .tables th {
+  width: 100px;
+  text-align: center;
+}
+.main[role=main] .gridAnalysis .subGridA .r1, .main[role=main] .gridAnalysis .subGridA .r2, .main[role=main] .gridAnalysis .subGridA .r3 {
+  margin: 0;
+}
+.main[role=main] .gridAnalysis .subGridA .r1 h2 a, .main[role=main] .gridAnalysis .subGridA .r1 p a, .main[role=main] .gridAnalysis .subGridA .r2 h2 a, .main[role=main] .gridAnalysis .subGridA .r2 p a, .main[role=main] .gridAnalysis .subGridA .r3 h2 a, .main[role=main] .gridAnalysis .subGridA .r3 p a {
+  margin: 0;
+}
+.main[role=main] .gridAnalysis .subGridA .r2 {
+  border-left: 2px double #2a2a2a;
+  border-right: 2px double #2a2a2a;
+}
+
+.gridAnalysis {
+  display: grid;
+  gap: 1em 1em;
+  margin: unset;
+  margin-bottom: 1em;
+}
+.gridAnalysis h1, .gridAnalysis h2, .gridAnalysis h3 {
+  text-align: center;
+}
+.gridAnalysis a:hover {
+  color: #4d7bee;
+}
+.gridAnalysis * {
+  margin: 0;
+}
+.gridAnalysis .box {
+  margin: unset;
+}
+
+.wrapperAnalysis {
+  max-width: 1280px;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px repeat(6, 400px);
+  grid-template-areas: "h1" "urv" "met" "res" "ana" "ref" "etc";
+}
+
+.subGridA {
+  display: grid;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.subWrapA {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 350px;
+  grid-template-areas: "h2 h2 h2" "r1 r2 r3";
+}
+
+.subWrapB {
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 50px 350px;
+  grid-template-areas: "h2 h2 h2" "tbls r1 r1";
+}
+
+.box {
+  background-color: #eee;
+  border: 2px solid #333;
+}
+
+.grid.wrapper, .smallgrid.smallwrap {
+  margin: 1em auto;
+}
+
+h1 {
+  grid-area: h1;
+}
+
+h2 {
+  grid-area: h2;
+}
+
+h3 {
+  grid-area: h3;
+}
+
+.urv {
+  grid-area: urv;
+}
+
+.met {
+  grid-area: met;
+}
+
+.res {
+  grid-area: res;
+}
+
+.ana {
+  grid-area: ana;
+}
+
+.ref {
+  grid-area: ref;
+}
+
+.etc {
+  grid-area: etc;
+}
+
+.tables {
+  grid-area: tbls;
+}
+
+.r1 {
+  grid-area: r1;
+}
+
+.r2 {
+  grid-area: r2;
+}
+
+.r3 {
+  grid-area: r3;
 }
 
 .slide {
