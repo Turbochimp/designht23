@@ -8,17 +8,19 @@ Template: technologies
 <div class = "box gridAnalysis wrapperAnalysis" markdown=1>
 
 
-Titel på rapporten
+Abalysis of styling in Newssites
 =======================
 
 <div class="subGridA subWrapA urv" markdown=1>
 
-Urval
+Selection
 -----------------------
 
 <div class = "r1" markdown=1>
 
-My first selection for website analysis is [CNN](https://edition.cnn.com), and i chose it due to the nature of it being an american newssite. It will be interesting to be able to contrast the styles used between different countries, depending on the purpose and scope of the website.
+My first selection for website analysis is [CNN](https://edition.cnn.com), and i chose it due to the nature of it being an american newssite.
+
+It will be interesting to be able to contrast the styles used between different countries, depending on the purpose and scope of the website.
 
 Although CNN is an American corporation, it broadcasts internationally across several countries, and therefore will try to appeal to a larger audience than the other chosen sites.
 
@@ -26,14 +28,18 @@ Although CNN is an American corporation, it broadcasts internationally across se
 
 <div class = "r2" markdown=1>
 
-The second selection for website analysis is [SVT](https://www.svt.se). This is a swedish, state-run webpage purely aimed att delivering news and information to the general public in the country. Contrasting this page to an international, and a for-profit swedish newssite.
+The second selection for website analysis is [SVT](https://www.svt.se).
+
+This is a swedish, state-run webpage purely aimed att delivering news and information to the general public in the country. Contrasting this page to an international, and a for-profit swedish newssite.
 
 </div>
 
 
 <div class = "r3" markdown=1>
 
-The last selection for website analysis is [Aftonbladet](https://www.aftonbladet.se/). It is a popular swedish for-profit newssite. All of the websites chosen are newssites with a similar goal in mind, however they differ in reach, popularity and purpose. 
+The last selection for website analysis is [Aftonbladet](https://www.aftonbladet.se/).
+
+It is a popular swedish for-profit newssite. All of the websites chosen are newssites with a similar goal in mind, however they differ in reach, popularity and purpose. 
 
 </div>
 
@@ -41,12 +47,20 @@ The last selection for website analysis is [Aftonbladet](https://www.aftonbladet
 
 <div class="subGridA subWrapB met" markdown=1>
 
-Metod
+Methodology
 -----------------------
 
 <div class = "r1" markdown=1>
 
-To gather the color-codes used in the website, I use the color-pipette available in the firefox webbrowser, as well as the [Adobe Colorwheel](https://color.adobe.com/create/color-wheel) to map the color harmony that was applied when designing the website. To the left are some of the prominent colors used from each website.
+To gather the color-codes used in the website, I use the color-pipette available in the firefox webbrowser, as well as the [Adobe Colorwheel](https://color.adobe.com/create/color-wheel) to map the color harmony that was applied when designing the website.
+
+To the left are some of the prominent colors used from each website. 
+
+I sampled the most prominent colors from each website, and entered them into adobe's color wheel function. 
+
+This enabled to gather some form of a color-scheme which i could cross-reference to the examples that we learned from in the "Introduction to Color Theory" [article](https://webdesign.tutsplus.com/an-introduction-to-color-theory-for-web-designers--webdesign-1437a).
+
+CNN and SVT have a more grayscale monochromatic color-scheme with a single accent-color, both being red. Comparatively, Aftonbladet utilizes a Triadic color scheme for its accents, using shades of red and yellow with a strong blue, while maintaining the status-quo of the gray/white framing, that it shares with SVT. 
 
 </div>
 
@@ -60,6 +74,20 @@ To gather the color-codes used in the website, I use the color-pipette available
 <td style="height: 50px; width: 50px; background-color: #F8F7CF; border: 2px solid black">
 <td style="height: 50px; width: 50px; background-color: #FFEB18; border: 2px solid black">
 <td style="height: 50px; width: 50px; background-color: #2A72DD; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #222222; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #f7f7f7; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #ffffff; border: 2px solid black">
+</tr>
+</table>
+
+<table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<th>SVT</th>
+<td style="height: 50px; width: 50px; background-color: #E02E3D; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #333333; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #404040; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #EBEBEB; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 2px solid black">
 </tr>
 </table>
 
@@ -67,47 +95,92 @@ To gather the color-codes used in the website, I use the color-pipette available
 <tr>
 <th>CNN</th>
 <td style="height: 50px; width: 50px; background-color: #cc0000; border: 2px solid black">
-<td style="height: 50px; width: 50px; background-color: #ffffff; border: 2px solid black">
 <td style="height: 50px; width: 50px; background-color: #0c0c0c; border: 2px solid black">
+<td style="height: 50px; width: 50px; background-color: #ffffff; border: 2px solid black">
 </tr>
 </table>
 
-<table style="border-spacing: 4px; border-collapse: separate">
-<tr>
-<th>SVT</th>
-<td style="height: 50px; width: 50px; background-color: #333333; border: 2px solid black">
-<td style="height: 50px; width: 50px; background-color: #404040; border: 2px solid black">
-<td style="height: 50px; width: 50px; background-color: #EBEBEB; border: 2px solid black">
-<td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 2px solid black">
-<td style="height: 50px; width: 50px; background-color: #E02E3D; border: 2px solid black">
-</tr>
-</table>
 
 </div>
 
 </div>
 
-<div class="subGridA subWrapA res" markdown=1>
+<div class="subGridA subWrapC res" markdown=1>
 
-Resultat
+Results
 -----------------------
 
 <div class = "r1" markdown=1>
 
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
+<div class="flexRowR" markdown=1>
+
+### Aftonbladet:
+
+### SVT
+
+### CNN
+
+</div>
+
+<div class="flexRowR" markdown=1>
+
+![lego fantasy me](%assets_url%/img/aftonb.jpg "Aftonbladet")
+
+![lego fantasy me](%assets_url%/img/svt.jpg "SVT")
+
+![lego fantasy me](%assets_url%/img/cnn.jpg "CNN")
+
+</div>
 
 </div>
 
 <div class = "r2" markdown=1>
 
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
+### CNN
+
+CNN prioritizes their own font CNN Sans Display with fallbacks to the following: 
+
+1. Helvetica Neue 
+2. Helvetica
+3. Arial
+4. Utkal
+5. sans-serif
+
+For the headers, mainly for the large headlines the CNN Display is Bold, as well as for lesser sub-titles. A medium boldness is used for links to other parts of the site, and regular for article content or preview. The website mainly ises its own headers instead of elements such as h1. Howver h2 is used for less important, category links. Span "headers" for more important stories tend to be larger.
+
+### SVT
+
+SVT Similarly, has their Publik custom font with fallbacks to:
+
+1. Helvetica
+2. Arial
+3. Nimbus Sans L
+4. Bitsream Vera Sans
+5. sans-serif
+
+Instead of having varying font-families for titles, and text content, SVT uses h1 for their headings, and adjusting size appropriately with respect to the corresponding articles relevance or importance.
+
+The the different sections of the articles are wrapped in varying divs to style headers and paragraphs individually, allowing for a reduced variety of html elements. Header divs and spans have a heavier weight as well as subheadings though to a lesser extent.
+
+### Aftonbladet
+
+Aftonbladet uses different fonts for its headers and paragraphs and sub-headings. For the larger, more pressing headlines Verdana Bold is used, with Arial used for the body text, and Arial Bold for article-subheadings. Similarly to the other websites covered, fallbacks include:
+
+1. Arial (Headings)
+2. Helvetica
+3. Verdana (body text)
+4. Geneva
+5. sans-serif
+
+Using Verdana Bold with a larger font size, line height and weight for the headlines, along with Arial for body-text and subheadings allows large attention-grabbing article titles, witch clear and legible content for the article. Apart from the large styling, the font-family usage is inoffensive. The more common choice of font-family can be contrasted to the large amount of advertisements visible on the page, usually with very stylized fonts and imagery.
 
 </div>
 
-
 <div class = "r3" markdown=1>
 
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
+All of the newssites that were chosen have a very common theme of having a main red accent color, which is in-theme for a newssite and seems to be a common trend. Although all sites share red as an accent color, SVT and CNN allows the rest of the content to be more muted in its color-scheme, and using a monochromatic color-scheme for the rest of the webpage structure. In turn the red sections stand out, and are highlited more. This is also more inoffensive and allows the sites to reach a wider audience, which would be a common goal for both CNN and SVT, as international and state-run newssites respectively.
+
+Aftonbladet on the other hand, has a more varied color-scheme partially as it covers a wider range of topics, categorizing content mainly with color, having ads styled with blue headers, sports with pastel-pink backgrounds and health-related with pale yellow.
 
 </div>
 
@@ -115,7 +188,7 @@ Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka
 
 <div class="subGridA subWrapA ana" markdown=1>
 
-Analys
+Analysis
 -----------------------
 
 <div class = "r1" markdown=1>
@@ -141,7 +214,7 @@ Diskutera och analysera de resultaten du fann.
 
 <div class="subGridA subWrapA ref" markdown=1>
 
-Referenser
+References
 -----------------------
 
 <div class = "r1" markdown=1>
@@ -167,7 +240,7 @@ Ange de eventuella referenser du använder dig av, om några.
 
 <div class="subGridA subWrapA etc" markdown=1>
 
-Övrigt
+Other
 -----------------------
 
 <div class = "r1" markdown=1>

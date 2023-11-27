@@ -6360,6 +6360,9 @@ h1 {
   border-left: 2px double #2a2a2a;
   border-right: 2px double #2a2a2a;
 }
+.main[role=main] .gridAnalysis .subGridA.subWrapC .r2 {
+  border: none;
+}
 
 .gridAnalysis {
   display: grid;
@@ -6384,8 +6387,8 @@ h1 {
   max-width: 1280px;
   margin: 0 auto;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px repeat(6, 400px);
-  grid-template-areas: "h1" "urv" "met" "res" "ana" "ref" "etc";
+  grid-template-rows: 50px repeat 400px 450px 500px 1500px repeat(3, 400px);
+  grid-template-areas: "h1" "urv" "met" "res" "res" "ana" "ref" "etc";
 }
 
 .subGridA {
@@ -6402,8 +6405,32 @@ h1 {
 
 .subWrapB {
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 50px 350px;
+  grid-template-rows: 50px 400;
   grid-template-areas: "h2 h2 h2" "tbls r1 r1";
+}
+
+.subWrapC {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 500px 1000 225px;
+  grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r2 r2 r2" "r3 r3 r3";
+}
+.subWrapC .r1 {
+  display: flex;
+  flex-direction: column;
+}
+.subWrapC .r1 p {
+  margin: 0;
+}
+.subWrapC .r1 h3 {
+  width: 350px;
+}
+.subWrapC .r1 .flexRowR {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.subWrapC .r2 {
+  border: none;
 }
 
 .box {
