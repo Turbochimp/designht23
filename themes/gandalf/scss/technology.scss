@@ -8,9 +8,9 @@
         text-align: center;
     }
 
-    a:hover {
-        color: $accent-color;
-    }
+    // a:hover {
+    //     color: #eee;
+    // }
 
     .box {
         margin: unset;
@@ -77,8 +77,8 @@
 }
 
 .box {
-    background-color: #eee;
-    border: 2px solid $background-alternative-color;
+    // background-color: #eee;
+    border: 2px solid;
 }
 
 .grid.wrapper, .smallgrid.smallwrap{

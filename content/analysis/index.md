@@ -8,7 +8,7 @@ Template: technologies
 <div class = "box gridAnalysis wrapperAnalysis" markdown=1>
 
 
-Abalysis of styling in Newssites
+Analysis of styling in Newssites
 =======================
 
 <div class="subGridA subWrapA urv" markdown=1>
@@ -193,20 +193,48 @@ Analysis
 
 <div class = "r1" markdown=1>
 
-Diskutera och analysera de resultaten du fann.
+From what we can gather from the color selection from all websites, the common theme is to use a red hue as the main accent for the website. 
+
+As said in the previously mentioned [article](https://webdesign.tutsplus.com/an-introduction-to-color-theory-for-web-designers--webdesign-1437a), it is commonly used to invoke emotion and excitement in the viewer.
+
+From a layman's perspective, red is also a very striking color that is commonly associated with urgency. Thus it is not surprising that this is a commonly occuring accent color across all three websites.
+
+A brigther background with slightly darker shades to frame important objects on the websites is also common, however it varies greatly in how it is used.
+
+SVT uses gray shades to frame articles and objects, whilst CNN uses none.
+
+As a result, CNNs website is structured quite differently compared to SVT, and may appear more cluttered and less structured in comparision.
+
+However the limited color-scheme used by CNN and SVT allows for a more simple, sophisticated style. A less flashy theme lets the contents of the articles and related be the main selling-point.
 
 </div>
 
 <div class = "r2" markdown=1>
 
-Diskutera och analysera de resultaten du fann.
+Contrasting the two more simple but, still effective designs of CNN and SVT to Aftonbladet, we notice a clear difference in how the colors are chosen.
+
+Unlike CNN and SVT, aftonbladet contains a larger amount advertisements surrounding the main news articles of the website.
+
+The colors blue and yellow are used for non-news related items, such as advertisements and health articles, which becomes form categorization that the viewer can clearly see. 
+
+The main goal of this website, is however to sell and generate clicks.
+
+Therefore the more varied use of color on the website allows it to compete with the ads that are present between and to the side of articles.
+
+By use of the occasional red font on certain articles, it incites urgency in the viewer to click on the article. This is not commonly seen on the other sites covered in this review. 
 
 </div>
 
 
 <div class = "r3" markdown=1>
 
-Diskutera och analysera de resultaten du fann.
+All sites use a bright background with a darker font, typically black or very dark gray.
+
+Aftonbladet's use of a more heavy, impactful font is similar to what we see with CNN and SVT, although it by far has the largest font-size for its headers in comparison to the others. Again, this is due to the need to compete for the viewers attention, that may otherwise be preoccupied with the ads on the site.
+
+SVT, and CNN however do not have this problem. The comparatively smaller titles still are easy to read by the viewer and are able to grab the users attention. A font size that is too large without proper context may be jarring for viewers, or may distract from smaller, yet still important pieces.
+
+SVT and CNN may still use red font styling, typically to showcase the covering of a live event. This selective use of accented fonts is effective with guiding the viewer to urgent or ongoing topics, and a red font is especially useful for this purpose.
 
 </div>
 
@@ -219,46 +247,41 @@ References
 
 <div class = "r1" markdown=1>
 
-Ange de eventuella referenser du använder dig av, om några.
+Sites used in this article:
+
+1. [CNN.com](https://edition.cnn.com/)
+2. [SVT.se](https://www.svt.se/)
+3. [Aftonbladet.se](https://www.aftonbladet.se/)
+
 
 </div>
 
 <div class = "r2" markdown=1>
 
-Ange de eventuella referenser du använder dig av, om några.
+This exercise is part of kmom04 in the design course: [Teknisk webbdesign och användbarhet](https://dbwebb.se/kurser/design-v3)
 
 </div>
 
 
 <div class = "r3" markdown=1>
 
-Ange de eventuella referenser du använder dig av, om några.
+Other tools used:
+
+1. [Adobe Color](https://color.adobe.com/create/color-wheel)
+2. [Color Theory](https://webdesign.tutsplus.com/an-introduction-to-color-theory-for-web-designers--webdesign-1437a)
 
 </div>
 
 </div>
 
-<div class="subGridA subWrapA etc" markdown=1>
+<div class="subGridA subWrapD etc" markdown=1>
 
-Other
+Author
 -----------------------
 
 <div class = "r1" markdown=1>
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
-
-</div>
-
-<div class = "r2" markdown=1>
-
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
-
-</div>
-
-
-<div class = "r3" markdown=1>
-
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+This article was written by Benjamin Thulesen.
 
 </div>
 

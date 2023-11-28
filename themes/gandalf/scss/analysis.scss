@@ -1,21 +1,29 @@
 .main[role="main"] {
     .gridAnalysis {
         margin: 0 auto;
+
         .subGridA {
             margin: 0 1em;
 
             .tables {
-                margin:auto;
+                margin: auto;
+
                 th {
                     width: 100px;
                     text-align: center;
                 }
             }
 
-            .r1, .r2, .r3 {
+            .r1,
+            .r2,
+            .r3 {
                 margin: 0;
-                h2, p {
-                    a {margin: 0;}
+
+                h2,
+                p {
+                    a {
+                        margin: 0;
+                    }
                 }
             }
 
@@ -24,13 +32,10 @@
                 border-right: 2px double #2a2a2a;
             }
         }
-        .subGridA.subWrapC {
-            .r2 {
-                border: none;
-            }
-        }
+
+
+
     }
-    
 }
 
 
@@ -40,13 +45,15 @@
     margin: unset;
     margin-bottom: 1em;
 
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         text-align: center;
     }
 
-    a:hover {
-        color: $accent-color;
-    }
+    // a:hover {
+    //     color: $accent-color;
+    // }
 
     * {
         margin: 0
@@ -61,17 +68,21 @@
     max-width: 1280px;
     margin: 0 auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px repeat 400px 450px 500px 1500px 550px 50px;
-    grid-template-areas: 
-    "h1"
-    "urv"
-    "met"
-    "res"
-    "res"
-    "ana"
-    "ref"
-    "etc"
+    grid-template-rows: auto;
+    grid-template-areas:
+        "h1"
+        "urv"
+        "met"
+        "res"
+        "res"
+        "ana"
+        "ref"
+        "etc"
     ;
+}
+
+.etc {
+    text-align: center;
 }
 
 .subGridA {
@@ -80,8 +91,9 @@
     margin: 0 auto;
 }
 
-.subWrapA, .subWrapD {
-    grid-template-columns: repeat(3,1fr);
+.subWrapA,
+.subWrapD {
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px 450;
     grid-template-areas: "h2 h2 h2" "r1 r2 r3";
 }
@@ -100,33 +112,41 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px 500px 1000 225px;
     grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r2 r2 r2" "r3 r3 r3";
+
     .r1 {
         display: flex;
         flex-direction: column;
+
         p {
             margin: 0;
         }
+
         h3 {
             width: 350px
         }
+
         .flexRowR {
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
     }
+
     .r2 {
-        border: none;
+        p {
+            margin: 0
+        }
     }
 }
 
 
 .box {
-    background-color: #eee;
-    border: 2px solid $background-alternative-color;
+    // background-color: #eee;
+    border: 2px solid;
 }
 
-.grid.wrapper, .smallgrid.smallwrap{
+.grid.wrapper,
+.smallgrid.smallwrap {
     margin: 1em auto;
 }
 
@@ -134,21 +154,57 @@
 //     margin: unset;
 // }
 
-h1 {grid-area: h1;}
-h2 {grid-area: h2;}
-h3 {grid-area: h3;}
+h1 {
+    grid-area: h1;
+}
 
-.urv { grid-area: urv; }
-.met { grid-area: met; }
-.res { grid-area: res; }
-.ana { grid-area: ana; }
-.ref { grid-area: ref; }
-.etc { grid-area: etc; }
-.tables {grid-area: tbls }
+h2 {
+    grid-area: h2;
+}
 
-.r1 { grid-area: r1; }
-.r2 { grid-area: r2; }
-.r3 { grid-area: r3; }
+h3 {
+    grid-area: h3;
+}
+
+.urv {
+    grid-area: urv;
+}
+
+.met {
+    grid-area: met;
+}
+
+.res {
+    grid-area: res;
+}
+
+.ana {
+    grid-area: ana;
+}
+
+.ref {
+    grid-area: ref;
+}
+
+.etc {
+    grid-area: etc;
+}
+
+.tables {
+    grid-area: tbls
+}
+
+.r1 {
+    grid-area: r1;
+}
+
+.r2 {
+    grid-area: r2;
+}
+
+.r3 {
+    grid-area: r3;
+}
 
 
 // .landingpage {

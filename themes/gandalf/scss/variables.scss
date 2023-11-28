@@ -1,11 +1,106 @@
-$font-color: #333;
-$font-alternative-color: #ddd;
-$accent-color: #4d7bee;
-$background-color: #ddd;
-$background-alternative-color: #333;
+// $font-color: #333;
+// $font-alternative-color: #ddd;
+// $accent-color: #4d7bee;
+// $background-color: #ddd;
+// $background-alternative-color: #333;
 
-@mixin tema($bg: $background-color, $txt: $font-color) {
+
+//Darkmode
+
+$--dm-gandalf-bg: #232627;
+$--dm-gandalf-frame: #F2F2F2;
+$--dm-gandalf-article: #31363B;
+$--dm-gandalf-bright: #41C0F2;
+$--dm-gandalf-highl: #1ED994;
+
+$--lm-gandalf-bg: #FFF;
+$--lm-gandalf-frame: #B1B1B1;
+$--lm-gandalf-article: #EEE;
+$--lm-gandalf-dark: #2c474a;
+$--lm-gandalf-darkl: #293233;
+
+
+@mixin tema($bg, $txt, $border) {
     background: $bg;
     color: $txt;
-    border: $accent-color
+    border: $border;
+
+    table {
+        thead {
+            border-left: $border;
+        }
+
+        tbody {
+            border-left: $border;
+            border-right: $border;
+
+            tr {
+                border-bottom: $border;
+            }
+        }
+    }
+}
+
+@mixin headerTema($bg, $txt, $main-bg) {
+    .site-header {
+        background: $bg;
+
+        .title {
+            .a {
+                color: $txt;
+
+                p, h1 {
+                    color: $txt;
+                }
+            }
+        }
+    }
+
+    ul {
+        border-top: 1em solid $bg;
+        border-bottom: 1em solid $main-bg;
+        background-image: linear-gradient(to bottom, $bg, 10% , $main-bg);
+    }
+}
+
+@mixin footerTema($bg: $background-color, $txt, $main-bg) {
+    background-image: linear-gradient(to top, $bg, 10% , $main-bg);
+    background-color: $bg;
+
+    .container > a, .container > p {
+        color: $txt
+    }
+}
+
+@mixin grid ($acc, $box-color, $border, $bgbox){
+    .grid {
+        a:hover {
+            color: $acc;
+        }
+    }
+
+    .box {
+        border: $box-color;
+        background-color: $bgbox;
+    }
+}
+
+@mixin gridA($acc, $box-color, $border, $bgbox){
+    .gridAnalysis {
+        a:hover {
+            color: $acc;
+        }
+
+        .subGridA {
+            .r2  {
+                border-left: $border;
+                border-right: $border;
+            }
+        }
+    }
+
+    .box {
+        border: 2px solid $box-color;
+        background-color: $bgbox;
+    }
 }

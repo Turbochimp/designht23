@@ -6576,73 +6576,88 @@ h3 {
   }
 }
 body {
-  background: #FFFFFF;
-  color: #2c474a;
-  border: #293233;
+  background: #232627;
+  color: #F2F2F2;
+  border: #F2F2F2;
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 body table thead {
-  border-left: #293233;
+  border-left: #F2F2F2;
 }
 body table tbody {
-  border-left: #293233;
-  border-right: #293233;
+  border-left: #F2F2F2;
+  border-right: #F2F2F2;
 }
 body table tbody tr {
-  border-bottom: #293233;
+  border-bottom: #F2F2F2;
 }
 
 .header[role=banner] .site-header {
-  background: #B1B1B1;
+  background: #31363B;
 }
 .header[role=banner] .site-header .title .a {
-  color: #2c474a;
+  color: #1ED994;
 }
 .header[role=banner] .site-header .title .a p, .header[role=banner] .site-header .title .a h1 {
-  color: #2c474a;
+  color: #1ED994;
 }
 .header[role=banner] ul {
-  border-top: 1em solid #B1B1B1;
-  border-bottom: 1em solid #FFFFFF;
-  background-image: linear-gradient(to bottom, #B1B1B1, 10%, #FFFFFF);
+  border-top: 1em solid #31363B;
+  border-bottom: 1em solid #232627;
+  background-image: linear-gradient(to bottom, #31363B, 10%, #232627);
 }
 
 .footer {
-  background-image: linear-gradient(to top, #B1B1B1, 10%, #FFFFFF);
-  background-color: #B1B1B1;
+  background-image: linear-gradient(to top, #31363B, 10%, #232627);
+  background-color: #31363B;
 }
 .footer .container > a, .footer .container > p {
-  color: #2c474a;
+  color: #41C0F2;
 }
 
-.grid .grid a:hover {
-  color: #293233;
-}
-.grid .box {
-  border: #B1B1B1;
-  background-color: #EEEEEE;
+.grid a:hover {
+  color: #41C0F2;
 }
 
-.gridAnalysis .gridAnalysis a:hover {
-  color: #293233;
+.box {
+  border: #F2F2F2;
+  background-color: #31363B;
 }
-.gridAnalysis .gridAnalysis .subGridA .r2 {
-  border-left: #293233;
-  border-right: #293233;
+
+.gridAnalysis a:hover {
+  color: #41C0F2;
 }
-.gridAnalysis .box {
-  border: #B1B1B1;
+.gridAnalysis .subGridA .r2 {
+  border-left: #F2F2F2;
+  border-right: #F2F2F2;
+}
+
+.box {
+  border: 2px solid #F2F2F2;
+  background-color: #31363B;
 }
 
 * {
-  color: #2c474a;
+  color: #F2F2F2;
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p {
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #41C0F2;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #1ED994;
+}
+
+a h2, a h3, a h4, a h5, a h6 {
+  color: #1ED994;
 }
 
 p {
@@ -6650,5 +6665,9 @@ p {
 }
 
 .nav ul a {
-  color: #2c474a;
+  color: #41C0F2;
+}
+
+code, pre {
+  background: #232627;
 }

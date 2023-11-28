@@ -14,18 +14,37 @@ $fa-font-path: '../../shared/fontawesome/webfonts';//fonts
 @import 'header';
 @import 'footer';
 @import 'technology';
+@import 'analysis';
 @import 'mobile';
 
 
 body {
-    @include tema($bg: $background-alternative-color);
+    @include tema($bg: $--dm-gandalf-bg, $txt: $--dm-gandalf-frame, $border: $--dm-gandalf-frame);
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.header[role="banner"] {
+    @include headerTema($bg: $--dm-gandalf-article, $txt: $--dm-gandalf-highl, $main-bg: $--dm-gandalf-bg)
+}
+
+.footer {
+    @include footerTema($bg: $--dm-gandalf-article, $txt: $--dm-gandalf-bright, $main-bg: $--dm-gandalf-bg)
+}
+
+
+@include grid ($acc: $--dm-gandalf-bright, $box-color: $--dm-gandalf-frame, $border: $--dm-gandalf-frame, $bgbox: $--dm-gandalf-article);
+
+
+
+@include gridA ($acc: $--dm-gandalf-bright, $box-color: $--dm-gandalf-frame, $border: $--dm-gandalf-frame, $bgbox: $--dm-gandalf-article);
+
+
+
+
 * {
-    color: $font-color;
+    color: $--dm-gandalf-frame;
     font-family: 'Roboto', sans-serif;
     // font-family: 'Montserrat', sans-serif;
 }
@@ -34,10 +53,30 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+    color: $--dm-gandalf-bright;
+}
+
+h2, h3, h4, h5, h6 {
+    color: $--dm-gandalf-highl;
+}
+
+a {
+    h2, h3, h4, h5, h6 {
+        color: $--dm-gandalf-highl;
+    }
+}
+
 p {
     font-size: 16px;
 }
 
-.main {
-    background-color: black;
+.nav ul {
+    a {
+        color: $--dm-gandalf-bright;
+    }
+}
+
+code, pre {
+    background: $--dm-gandalf-bg;
 }

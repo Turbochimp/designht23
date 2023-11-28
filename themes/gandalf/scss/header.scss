@@ -1,6 +1,6 @@
 .header[role="banner"] {
     .site-header {
-        background: $background-alternative-color;
+        // background: $background-alternative-color;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -14,13 +14,13 @@
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
-                color: $font-alternative-color;
+                // color: $font-alternative-color;
 
                 p,
                 h1 {
                     justify-content: center;
                     width: 100%;
-                    color: $font-alternative-color;
+                    // color: $font-alternative-color;
                 }
             }
         }
@@ -32,10 +32,12 @@
     }
     
     ul {
-        border-top: 1em solid $background-alternative-color;
-        border-bottom: 1em solid $background-color;
+        border-top: 1em solid;
+        // $background-alternative-color
+        border-bottom: 1em solid;
+        // $background-color
         margin-top: 0;
         margin-bottom: 0;
-        background-image: linear-gradient(to bottom, $background-alternative-color, 10% , $background-color);
+        // background-image: linear-gradient(to bottom, $background-alternative-color, 10% , $background-color);
     }
 }
