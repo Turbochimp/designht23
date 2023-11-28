@@ -6387,7 +6387,7 @@ h1 {
   max-width: 1280px;
   margin: 0 auto;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px repeat 400px 450px 500px 1500px repeat(3, 400px);
+  grid-template-rows: 50px repeat 400px 450px 500px 1500px 550px;
   grid-template-areas: "h1" "urv" "met" "res" "res" "ana" "ref" "etc";
 }
 
@@ -6399,7 +6399,7 @@ h1 {
 
 .subWrapA {
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 50px 350px;
+  grid-template-rows: 50px 450;
   grid-template-areas: "h2 h2 h2" "r1 r2 r3";
 }
 

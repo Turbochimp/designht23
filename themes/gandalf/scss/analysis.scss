@@ -61,7 +61,7 @@
     max-width: 1280px;
     margin: 0 auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px repeat 400px 450px 500px 1500px repeat(3, 400px);
+    grid-template-rows: 50px repeat 400px 450px 500px 1500px 550px 50px;
     grid-template-areas: 
     "h1"
     "urv"
@@ -80,10 +80,14 @@
     margin: 0 auto;
 }
 
-.subWrapA {
+.subWrapA, .subWrapD {
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 50px 350px;
+    grid-template-rows: 50px 450;
     grid-template-areas: "h2 h2 h2" "r1 r2 r3";
+}
+
+.subWrapD {
+    grid-template-areas: "h2 h2 h2" ". r1 .";
 }
 
 .subWrapB {
