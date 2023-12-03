@@ -6224,111 +6224,120 @@ pre code {
   font-size: 1.25em;
 }
 
-.grid {
+.main[role=main] .grid {
   display: grid;
   gap: 1em 1em;
   margin: unset;
   margin-bottom: 1em;
 }
-.grid h1, .grid h2, .grid h3 {
+.main[role=main] .grid h1,
+.main[role=main] .grid h2,
+.main[role=main] .grid h3 {
   text-align: center;
 }
-.grid .box {
+.main[role=main] .grid .box {
   margin: unset;
 }
-
-.wrapper {
+.main[role=main] .wrapper {
   max-width: 1280px;
   margin: 0 auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 150px repeat(4, 200px);
   grid-template-areas: "h1 h1 h1" "css html html" "js js php" "py py py" "git sqlt sqlt";
 }
-
-.smallgrid {
+.main[role=main] .smallgrid {
   display: grid;
   gap: 1em 1em;
   margin-bottom: 1em;
   align-content: flex-start;
 }
-.smallgrid h1, .smallgrid h2, .smallgrid h3 {
+.main[role=main] .smallgrid h1,
+.main[role=main] .smallgrid h2,
+.main[role=main] .smallgrid h3 {
   text-align: center;
 }
-
-.smallwrap {
+.main[role=main] .smallwrap {
   max-width: 1280px;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 50px minmax(200px, auto) minmax(150px, auto);
 }
-.smallwrap h1 {
+.main[role=main] .smallwrap h1 {
   align-self: center;
   grid-column: 1/3;
   grid-row: 1/1;
 }
-.smallwrap .text {
+.main[role=main] .smallwrap .text {
   margin: 4px 4px auto;
   grid-column: 2/2;
   grid-row: 2/2;
 }
-.smallwrap pre {
+.main[role=main] .smallwrap pre {
   grid-column: 1/3;
   grid-row: 3/3;
 }
-.smallwrap .link-list {
+.main[role=main] .smallwrap .link-list {
   margin: 4px 4px auto;
   grid-column: 1/1;
   grid-row: 2/3;
 }
-.smallwrap .links {
+.main[role=main] .smallwrap .links {
   margin: auto;
   padding: 0;
 }
-
-.box {
+.main[role=main] .box {
   border: 2px solid;
 }
-
-.grid.wrapper, .smallgrid.smallwrap {
+.main[role=main] .grid.wrapper,
+.main[role=main] .smallgrid.smallwrap {
   margin: 1em auto;
 }
-
-h1 {
+.main[role=main] h1 {
   grid-area: h1;
 }
-
-.css {
+.main[role=main] .css {
   grid-area: css;
 }
-
-.html {
+.main[role=main] .html {
   grid-area: html;
 }
-
-.js {
+.main[role=main] .js {
   grid-area: js;
 }
-
-.php {
+.main[role=main] .php {
   grid-area: php;
 }
-
-.py {
+.main[role=main] .py {
   grid-area: py;
 }
-
-.git {
+.main[role=main] .git {
   grid-area: git;
 }
-
-.sqlt {
+.main[role=main] .sqlt {
   grid-area: sqlt;
 }
 
+.main[role=main] .box {
+  border: 2px solid;
+}
 .main[role=main] .gridAnalysis {
   margin: 0 auto;
+  display: grid;
+  gap: 1em 1em;
+  margin: unset;
+  margin-bottom: 1em;
+}
+.main[role=main] .gridAnalysis h1,
+.main[role=main] .gridAnalysis h2,
+.main[role=main] .gridAnalysis h3 {
+  text-align: center;
+}
+.main[role=main] .gridAnalysis .box {
+  margin: unset;
 }
 .main[role=main] .gridAnalysis .subGridA {
-  margin: 0 1em;
+  display: grid;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .main[role=main] .gridAnalysis .subGridA .tables {
   margin: auto;
@@ -6337,154 +6346,153 @@ h1 {
   width: 100px;
   text-align: center;
 }
-.main[role=main] .gridAnalysis .subGridA .r1, .main[role=main] .gridAnalysis .subGridA .r2, .main[role=main] .gridAnalysis .subGridA .r3 {
+.main[role=main] .gridAnalysis .subGridA .r1,
+.main[role=main] .gridAnalysis .subGridA .r2,
+.main[role=main] .gridAnalysis .subGridA .r3 {
   margin: 0;
 }
-.main[role=main] .gridAnalysis .subGridA .r1 h2 a, .main[role=main] .gridAnalysis .subGridA .r1 p a, .main[role=main] .gridAnalysis .subGridA .r2 h2 a, .main[role=main] .gridAnalysis .subGridA .r2 p a, .main[role=main] .gridAnalysis .subGridA .r3 h2 a, .main[role=main] .gridAnalysis .subGridA .r3 p a {
+.main[role=main] .gridAnalysis .subGridA .r1 h2 a,
+.main[role=main] .gridAnalysis .subGridA .r1 p a,
+.main[role=main] .gridAnalysis .subGridA .r2 h2 a,
+.main[role=main] .gridAnalysis .subGridA .r2 p a,
+.main[role=main] .gridAnalysis .subGridA .r3 h2 a,
+.main[role=main] .gridAnalysis .subGridA .r3 p a {
   margin: 0;
 }
 .main[role=main] .gridAnalysis .subGridA .r2 {
   border-left: 2px double #2a2a2a;
   border-right: 2px double #2a2a2a;
 }
-.main[role=main] .gridAnalysis .subGridA.subWrapC .r2 {
-  border: none;
-}
-
-.gridAnalysis {
-  display: grid;
-  gap: 1em 1em;
-  margin: unset;
-  margin-bottom: 1em;
-}
-.gridAnalysis h1, .gridAnalysis h2, .gridAnalysis h3 {
-  text-align: center;
-}
-.gridAnalysis * {
-  margin: 0;
-}
-.gridAnalysis .box {
-  margin: unset;
-}
-
-.wrapperAnalysis {
+.main[role=main] .wrapperAnalysis {
   max-width: 1280px;
   margin: 0 auto;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: "h1" "urv" "met" "res" "res" "ana" "ref" "etc";
 }
-
-.etc {
+.main[role=main] .wrapperAnalysis .etc {
   text-align: center;
 }
-
-.subGridA {
-  display: grid;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.subWrapA, .subWrapD {
+.main[role=main] .wrapperAnalysis .subWrapA,
+.main[role=main] .wrapperAnalysis .subWrapD {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px 450;
   grid-template-areas: "h2 h2 h2" "r1 r2 r3";
 }
-
-.subWrapD {
-  grid-template-areas: "h2 h2 h2" ". r1 .";
-}
-
-.subWrapB {
+.main[role=main] .wrapperAnalysis .subWrapB {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 50px 400;
   grid-template-areas: "h2 h2 h2" "tbls r1 r1";
 }
-
-.subWrapC {
+.main[role=main] .wrapperAnalysis .subWrapC {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px 500px 1000 225px;
   grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r2 r2 r2" "r3 r3 r3";
 }
-.subWrapC .r1 {
+.main[role=main] .wrapperAnalysis .subWrapC .r1 {
   display: flex;
   flex-direction: column;
 }
-.subWrapC .r1 p {
-  margin: 0;
-}
-.subWrapC .r1 h3 {
+.main[role=main] .wrapperAnalysis .subWrapC .r1 h3 {
   width: 350px;
 }
-.subWrapC .r1 .flexRowR {
+.main[role=main] .wrapperAnalysis .subWrapC .r1 .flexRowR {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.subWrapC .r2 {
-  border: none;
-}
-.subWrapC .r2 p {
+.main[role=main] .wrapperAnalysis .subWrapC .r1 .flexRowR p img {
   margin: 0;
 }
-
-.box {
-  border: 2px solid;
+.main[role=main] .wrapperAnalysis .subWrapD {
+  grid-template-areas: "h2 h2 h2" ". r1 .";
 }
-
-.grid.wrapper, .smallgrid.smallwrap {
-  margin: 1em auto;
+.main[role=main] .wrapperAnalysis .subWrapE {
+  grid-template-areas: "h2 h2 h2" "r1 r1 r1";
 }
-
-h1 {
+.main[role=main] .wrapperAnalysis .subWrapF {
+  grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r1 r1 r1" "r2 r2 r2";
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 {
+  display: flex;
+  flex-direction: column;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr .tul,
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr .pol,
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr .kbv {
+  width: 405px;
+  height: 435px;
+  margin: 0;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .screenshots, .main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .screenshots p, .main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p {
+  margin: 0;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .screenshots p img, .main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p img {
+  margin: 0;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop {
+  display: flex;
+  flex-direction: row;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p {
+  max-width: 400px;
+  padding: 2px;
+}
+.main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p img {
+  max-width: 100%;
+}
+.main[role=main] .wrapperAnalysis p code {
+  margin: 0;
+}
+.main[role=main] h1 {
   grid-area: h1;
 }
-
-h2 {
+.main[role=main] h2 {
   grid-area: h2;
 }
-
-h3 {
+.main[role=main] h3 {
   grid-area: h3;
 }
-
-.urv {
+.main[role=main] .urv {
   grid-area: urv;
 }
-
-.met {
+.main[role=main] .met {
   grid-area: met;
 }
-
-.res {
+.main[role=main] .res {
   grid-area: res;
 }
-
-.ana {
+.main[role=main] .ana {
   grid-area: ana;
 }
-
-.ref {
+.main[role=main] .ref {
   grid-area: ref;
 }
-
-.etc {
+.main[role=main] .etc {
   grid-area: etc;
 }
-
-.tables {
+.main[role=main] .tables {
   grid-area: tbls;
 }
-
-.r1 {
+.main[role=main] .r1 {
   grid-area: r1;
 }
-
-.r2 {
+.main[role=main] .r2 {
   grid-area: r2;
 }
-
-.r3 {
+.main[role=main] .r3 {
   grid-area: r3;
 }
 
@@ -6576,7 +6584,7 @@ h3 {
   }
 }
 body {
-  background: #FFFFFF;
+  background: #FFF;
   color: #2c474a;
   border: #293233;
   min-height: 100%;
@@ -6605,12 +6613,12 @@ body table tbody tr {
 }
 .header[role=banner] ul {
   border-top: 1em solid #B1B1B1;
-  border-bottom: 1em solid #FFFFFF;
-  background-image: linear-gradient(to bottom, #B1B1B1, 10%, #FFFFFF);
+  border-bottom: 1em solid #FFF;
+  background-image: linear-gradient(to bottom, #B1B1B1, 10%, #FFF);
 }
 
 .footer {
-  background-image: linear-gradient(to top, #B1B1B1, 10%, #FFFFFF);
+  background-image: linear-gradient(to top, #B1B1B1, 10%, #FFF);
   background-color: #B1B1B1;
 }
 .footer .container > a, .footer .container > p {
@@ -6622,7 +6630,7 @@ body table tbody tr {
 }
 .grid .box {
   border: #B1B1B1;
-  background-color: #EEEEEE;
+  background-color: #EEE;
 }
 
 .gridAnalysis .gridAnalysis a:hover {
@@ -6633,7 +6641,8 @@ body table tbody tr {
   border-right: #293233;
 }
 .gridAnalysis .box {
-  border: #B1B1B1;
+  border: 2px solid #B1B1B1;
+  background-color: #EEE;
 }
 
 * {

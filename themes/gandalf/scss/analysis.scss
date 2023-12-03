@@ -1,9 +1,30 @@
 .main[role="main"] {
+
+    .box {
+        border: 2px solid;
+    }
+
     .gridAnalysis {
         margin: 0 auto;
+        display: grid;
+        gap: 1em 1em;
+        margin: unset;
+        margin-bottom: 1em;
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        .box {
+            margin: unset;
+        }
 
         .subGridA {
-            margin: 0 1em;
+            display: grid;
+            max-width: 1280px;
+            margin: 0 auto;
 
             .tables {
                 margin: auto;
@@ -31,188 +52,183 @@
                 border-left: 2px double #2a2a2a;
                 border-right: 2px double #2a2a2a;
             }
+
         }
 
 
+    }
+
+    .wrapperAnalysis {
+        max-width: 1280px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "h1"
+            "urv"
+            "met"
+            "res"
+            "res"
+            "ana"
+            "ref"
+            "etc"
+        ;
+
+        .etc {
+            text-align: center;
+        }
+
+        .subWrapA,
+        .subWrapD {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50px 450;
+            grid-template-areas: "h2 h2 h2" "r1 r2 r3";
+        }
+
+        .subWrapB {
+            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-rows: 50px 400;
+            grid-template-areas: "h2 h2 h2" "tbls r1 r1";
+        }
+
+        .subWrapC {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50px 500px 1000 225px;
+            grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r2 r2 r2" "r3 r3 r3";
+
+            .r1 {
+                display: flex;
+                flex-direction: column;
+
+                h3 {
+                    width: 350px
+                }
+
+                .flexRowR {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    p {
+                        img {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .subWrapD {
+            grid-template-areas: "h2 h2 h2" ". r1 .";
+        }
+
+        .subWrapE {
+            grid-template-areas: "h2 h2 h2" "r1 r1 r1";
+        }
+
+        .subWrapF {
+            grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r1 r1 r1" "r2 r2 r2";
+
+            .r1 {
+                display: flex;
+                flex-direction: column;
+
+                .ifr {
+                    margin: 0;
+                    display: flex;
+                    flex-direction: row;
+
+                    .tul,
+                    .pol,
+                    .kbv {
+                        width: 405px;
+                        height: 435px;
+                        margin: 0;
+                    }
+                }
+                .screenshots, .desktop {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    margin-top: 2em;
+                    margin-bottom: 2em;
+                    p {
+                        margin: 0;
+                        img {
+                            margin: 0;
+                        }
+                    }
+                }
+                .desktop {
+                    display: flex;
+                    flex-direction: row;
+                    p {
+                        max-width: 400px;
+                        padding:2px;
+                        img {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        p {
+            code {
+                margin: 0;
+            }
+        }
 
     }
-}
 
+    h1 {
+        grid-area: h1;
+    }
 
-.gridAnalysis {
-    display: grid;
-    gap: 1em 1em;
-    margin: unset;
-    margin-bottom: 1em;
+    h2 {
+        grid-area: h2;
+    }
 
-    h1,
-    h2,
     h3 {
-        text-align: center;
+        grid-area: h3;
     }
 
-    // a:hover {
-    //     color: $accent-color;
-    // }
-
-    * {
-        margin: 0
+    .urv {
+        grid-area: urv;
     }
 
-    .box {
-        margin: unset;
+    .met {
+        grid-area: met;
     }
-}
 
-.wrapperAnalysis {
-    max-width: 1280px;
-    margin: 0 auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "h1"
-        "urv"
-        "met"
-        "res"
-        "res"
-        "ana"
-        "ref"
-        "etc"
-    ;
-}
+    .res {
+        grid-area: res;
+    }
 
-.etc {
-    text-align: center;
-}
+    .ana {
+        grid-area: ana;
+    }
 
-.subGridA {
-    display: grid;
-    max-width: 1280px;
-    margin: 0 auto;
-}
+    .ref {
+        grid-area: ref;
+    }
 
-.subWrapA,
-.subWrapD {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 450;
-    grid-template-areas: "h2 h2 h2" "r1 r2 r3";
-}
+    .etc {
+        grid-area: etc;
+    }
 
-.subWrapD {
-    grid-template-areas: "h2 h2 h2" ". r1 .";
-}
-
-.subWrapB {
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 50px 400;
-    grid-template-areas: "h2 h2 h2" "tbls r1 r1";
-}
-
-.subWrapC {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 500px 1000 225px;
-    grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r2 r2 r2" "r3 r3 r3";
+    .tables {
+        grid-area: tbls
+    }
 
     .r1 {
-        display: flex;
-        flex-direction: column;
-
-        p {
-            margin: 0;
-        }
-
-        h3 {
-            width: 350px
-        }
-
-        .flexRowR {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
+        grid-area: r1;
     }
 
     .r2 {
-        p {
-            margin: 0
-        }
+        grid-area: r2;
+    }
+
+    .r3 {
+        grid-area: r3;
     }
 }
-
-
-.box {
-    // background-color: #eee;
-    border: 2px solid;
-}
-
-.grid.wrapper,
-.smallgrid.smallwrap {
-    margin: 1em auto;
-}
-
-// .wgrid {
-//     margin: unset;
-// }
-
-h1 {
-    grid-area: h1;
-}
-
-h2 {
-    grid-area: h2;
-}
-
-h3 {
-    grid-area: h3;
-}
-
-.urv {
-    grid-area: urv;
-}
-
-.met {
-    grid-area: met;
-}
-
-.res {
-    grid-area: res;
-}
-
-.ana {
-    grid-area: ana;
-}
-
-.ref {
-    grid-area: ref;
-}
-
-.etc {
-    grid-area: etc;
-}
-
-.tables {
-    grid-area: tbls
-}
-
-.r1 {
-    grid-area: r1;
-}
-
-.r2 {
-    grid-area: r2;
-}
-
-.r3 {
-    grid-area: r3;
-}
-
-
-// .landingpage {
-//     display: grid;
-//     gap: 1em 1em;
-
-//     h1 {
-//         grid-column: span 3;
-//         justify-self: center;
-//     }
-// }
