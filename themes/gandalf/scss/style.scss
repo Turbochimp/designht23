@@ -13,36 +13,38 @@ $fa-font-path: '../../shared/fontawesome/webfonts';//fonts
 @import 'code';
 @import 'header';
 @import 'footer';
+@import 'grid-area';
 @import 'technology';
 @import 'analysis';
+@import 'gallery';
 @import 'mobile';
 
 
 body {
-    @include tema($bg: $--lm-gandalf-bg, $txt: $--lm-gandalf-dark, $border: $--lm-gandalf-darkl);
+    @include tema($bg: $lm-gandalf-bg, $txt: $lm-gandalf-dark, $border: $lm-gandalf-darkl);
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .header[role="banner"] {
-    @include headerTema($bg: $--lm-gandalf-frame, $txt: $--lm-gandalf-dark, $main-bg: $--lm-gandalf-bg)
+    @include headerTema($bg: $lm-gandalf-frame, $txt: $lm-gandalf-dark, $main-bg: $lm-gandalf-bg)
 }
 
 .footer {
-    @include footerTema($bg: $--lm-gandalf-frame, $txt: $--lm-gandalf-dark, $main-bg: $--lm-gandalf-bg)
+    @include footerTema($bg: $lm-gandalf-frame, $txt: $lm-gandalf-dark, $main-bg: $lm-gandalf-bg)
 }
 
 .grid {
-    @include grid ($acc: $--lm-gandalf-darkl, $box-color: $--lm-gandalf-frame, $border: $--lm-gandalf-darkl, $bgbox: $--lm-gandalf-article)
+    @include grid ($acc: $lm-gandalf-darkl, $box-color: $lm-gandalf-frame, $border: $lm-gandalf-darkl, $bgbox: $lm-gandalf-article)
 }
 
-.gridAnalysis {
-    @include gridA ($acc: $--lm-gandalf-darkl, $box-color: $--lm-gandalf-frame, $border: $--lm-gandalf-darkl, $bgbox: $--lm-gandalf-article)
+.grid-analysis {
+    @include gridA ($acc: $lm-gandalf-darkl, $box-color: $lm-gandalf-frame, $border: $lm-gandalf-darkl, $bgbox: $lm-gandalf-article)
 }
 
 * {
-    color: $--lm-gandalf-dark;
+    color: $lm-gandalf-dark;
     font-family: 'Roboto', sans-serif;
     // font-family: 'Montserrat', sans-serif;
 }
@@ -57,7 +59,7 @@ p {
 
 .nav ul {
     a {
-        color: $--lm-gandalf-dark;
+        color: $lm-gandalf-dark;
     }
 }
 

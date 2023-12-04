@@ -22,12 +22,11 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 150px repeat(4, 200px);
         grid-template-areas:
-            "h1 h1 h1"
-            "css html html"
-            "js js php"
-            "py py py"
-            "git sqlt sqlt"
-        ;
+        "h1 h1 h1"
+        "css html html"
+        "js js php"
+        "py py py"
+        "git sqlt sqlt";
     }
 
     .smallgrid {

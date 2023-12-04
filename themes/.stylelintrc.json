@@ -12,7 +12,8 @@
             }
         ],
         "at-rule-no-unknown": null,
-        "selector-max-compound-selectors": 5
+        "selector-max-compound-selectors": 10,
+        "max-nesting-depth" : null
     },
     "ignoreFiles": [
         "**/node_modules/",

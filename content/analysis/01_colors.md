@@ -5,13 +5,13 @@ Template: technologies
 ---
 
 
-<div class = "box gridAnalysis wrapperAnalysis" markdown=1>
+<div class = "box .grid-analysis wrapper-analysis" markdown=1>
 
 
 Analysis of styling in Newssites
 =======================
 
-<div class="subGridA subWrapA urv" markdown=1>
+<div class="sub-grid-a sub-wrap-a urv" markdown=1>
 
 Selection
 -----------------------
@@ -45,7 +45,7 @@ It is a popular swedish for-profit newssite. All of the websites chosen are news
 
 </div>
 
-<div class="subGridA subWrapB met" markdown=1>
+<div class="sub-grid-a sub-wrap-b met" markdown=1>
 
 Methodology
 -----------------------
@@ -105,7 +105,7 @@ CNN and SVT have a more grayscale monochromatic color-scheme with a single accen
 
 </div>
 
-<div class="subGridA subWrapC res" markdown=1>
+<div class="sub-grid-a sub-wrap-c res" markdown=1>
 
 Results
 -----------------------
@@ -186,7 +186,7 @@ Aftonbladet on the other hand, has a more varied color-scheme partially as it co
 
 </div>
 
-<div class="subGridA subWrapA ana" markdown=1>
+<div class="sub-grid-a sub-wrap-a ana" markdown=1>
 
 Analysis
 -----------------------
@@ -240,7 +240,7 @@ SVT and CNN may still use red font styling, typically to showcase the covering o
 
 </div>
 
-<div class="subGridA subWrapA ref" markdown=1>
+<div class="sub-grid-a sub-wrap-a ref" markdown=1>
 
 References
 -----------------------
@@ -274,7 +274,7 @@ Other tools used:
 
 </div>
 
-<div class="subGridA subWrapD etc" markdown=1>
+<div class="sub-grid-a sub-wrap-d etc" markdown=1>
 
 Author
 -----------------------

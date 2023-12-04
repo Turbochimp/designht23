@@ -9,3 +9,12 @@ Template: technologies
 ### [Load](%base_url%?analysis/02_load)
 
 ### [Design Principles](%base_url%?analysis/03_design_principles.md)
+
+
+# Laddar in bilden som vanligt
+
+![Leaf](%assets_url%/img/leaf_256x256.png)
+
+# Laddar in bilden via Cimage
+
+![Leaf](image/leaf_256x256.png)

@@ -7,17 +7,17 @@
 
 //Darkmode
 
-$--dm-gandalf-bg: #232627;
-$--dm-gandalf-frame: #F2F2F2;
-$--dm-gandalf-article: #31363B;
-$--dm-gandalf-bright: #41C0F2;
-$--dm-gandalf-highl: #1ED994;
+$dm-gandalf-bg: #232627;
+$dm-gandalf-frame: #F2F2F2;
+$dm-gandalf-article: #31363B;
+$dm-gandalf-bright: #41C0F2;
+$dm-gandalf-highl: #1ED994;
 
-$--lm-gandalf-bg: #FFF;
-$--lm-gandalf-frame: #B1B1B1;
-$--lm-gandalf-article: #EEE;
-$--lm-gandalf-dark: #2c474a;
-$--lm-gandalf-darkl: #293233;
+$lm-gandalf-bg: #FFF;
+$lm-gandalf-frame: #B1B1B1;
+$lm-gandalf-article: #EEE;
+$lm-gandalf-dark: #2c474a;
+$lm-gandalf-darkl: #293233;
 
 
 @mixin tema($bg, $txt, $border) {
@@ -86,12 +86,12 @@ $--lm-gandalf-darkl: #293233;
 }
 
 @mixin gridA($acc, $box-color, $border, $bgbox){
-    .gridAnalysis {
+    .grid-analysis {
         a:hover {
             color: $acc;
         }
 
-        .subGridA {
+        .sub-grid-a {
             .r2  {
                 border-left: $border;
                 border-right: $border;

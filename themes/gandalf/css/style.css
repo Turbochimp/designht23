@@ -6224,6 +6224,68 @@ pre code {
   font-size: 1.25em;
 }
 
+.wrapper-analysis h1 {
+  grid-area: h1;
+}
+.wrapper-analysis h2 {
+  grid-area: h2;
+}
+.wrapper-analysis h3 {
+  grid-area: h3;
+}
+.wrapper-analysis .urv {
+  grid-area: urv;
+}
+.wrapper-analysis .met {
+  grid-area: met;
+}
+.wrapper-analysis .res {
+  grid-area: res;
+}
+.wrapper-analysis .ana {
+  grid-area: ana;
+}
+.wrapper-analysis .ref {
+  grid-area: ref;
+}
+.wrapper-analysis .etc {
+  grid-area: etc;
+}
+.wrapper-analysis .tables {
+  grid-area: tbls;
+}
+.wrapper-analysis .r1 {
+  grid-area: r1;
+}
+.wrapper-analysis .r2 {
+  grid-area: r2;
+}
+.wrapper-analysis .r3 {
+  grid-area: r3;
+}
+
+.gallery .row1 {
+  grid-area: r1;
+}
+.gallery .row2 {
+  grid-area: r2;
+}
+.gallery .row3 {
+  grid-area: r3;
+}
+.gallery .col1 {
+  grid-area: c1;
+}
+.gallery .col2 {
+  grid-area: c2;
+}
+.gallery .col3 {
+  grid-area: c3;
+}
+.gallery .col4 {
+  grid-area: c4;
+}
+
 .main[role=main] .grid {
   display: grid;
   gap: 1em 1em;
@@ -6319,181 +6381,220 @@ pre code {
 .main[role=main] .box {
   border: 2px solid;
 }
-.main[role=main] .gridAnalysis {
+.main[role=main] .grid-analysis {
   margin: 0 auto;
   display: grid;
   gap: 1em 1em;
   margin: unset;
   margin-bottom: 1em;
 }
-.main[role=main] .gridAnalysis h1,
-.main[role=main] .gridAnalysis h2,
-.main[role=main] .gridAnalysis h3 {
+.main[role=main] .grid-analysis h1,
+.main[role=main] .grid-analysis h2,
+.main[role=main] .grid-analysis h3 {
   text-align: center;
 }
-.main[role=main] .gridAnalysis .box {
+.main[role=main] .grid-analysis .box {
   margin: unset;
 }
-.main[role=main] .gridAnalysis .subGridA {
+.main[role=main] .grid-analysis .sub-grid-a {
   display: grid;
   max-width: 1280px;
   margin: 0 auto;
 }
-.main[role=main] .gridAnalysis .subGridA .tables {
+.main[role=main] .grid-analysis .sub-grid-a .tables {
   margin: auto;
 }
-.main[role=main] .gridAnalysis .subGridA .tables th {
+.main[role=main] .grid-analysis .sub-grid-a .tables th {
   width: 100px;
   text-align: center;
 }
-.main[role=main] .gridAnalysis .subGridA .r1,
-.main[role=main] .gridAnalysis .subGridA .r2,
-.main[role=main] .gridAnalysis .subGridA .r3 {
+.main[role=main] .grid-analysis .sub-grid-a .r1,
+.main[role=main] .grid-analysis .sub-grid-a .r2,
+.main[role=main] .grid-analysis .sub-grid-a .r3 {
   margin: 0;
 }
-.main[role=main] .gridAnalysis .subGridA .r1 h2 a,
-.main[role=main] .gridAnalysis .subGridA .r1 p a,
-.main[role=main] .gridAnalysis .subGridA .r2 h2 a,
-.main[role=main] .gridAnalysis .subGridA .r2 p a,
-.main[role=main] .gridAnalysis .subGridA .r3 h2 a,
-.main[role=main] .gridAnalysis .subGridA .r3 p a {
+.main[role=main] .grid-analysis .sub-grid-a .r1 h2 a,
+.main[role=main] .grid-analysis .sub-grid-a .r1 p a,
+.main[role=main] .grid-analysis .sub-grid-a .r2 h2 a,
+.main[role=main] .grid-analysis .sub-grid-a .r2 p a,
+.main[role=main] .grid-analysis .sub-grid-a .r3 h2 a,
+.main[role=main] .grid-analysis .sub-grid-a .r3 p a {
   margin: 0;
 }
-.main[role=main] .gridAnalysis .subGridA .r2 {
+.main[role=main] .grid-analysis .sub-grid-a .r2 {
   border-left: 2px double #2a2a2a;
   border-right: 2px double #2a2a2a;
 }
-.main[role=main] .wrapperAnalysis {
+.main[role=main] .wrapper-analysis {
   max-width: 1280px;
   margin: 0 auto;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: "h1" "urv" "met" "res" "res" "ana" "ref" "etc";
 }
-.main[role=main] .wrapperAnalysis .etc {
+.main[role=main] .wrapper-analysis .etc {
   text-align: center;
 }
-.main[role=main] .wrapperAnalysis .subWrapA,
-.main[role=main] .wrapperAnalysis .subWrapD {
+.main[role=main] .wrapper-analysis .sub-wrap-a,
+.main[role=main] .wrapper-analysis .sub-wrap-d {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px 450;
   grid-template-areas: "h2 h2 h2" "r1 r2 r3";
 }
-.main[role=main] .wrapperAnalysis .subWrapB {
+.main[role=main] .wrapper-analysis .sub-wrap-b {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 50px 400;
   grid-template-areas: "h2 h2 h2" "tbls r1 r1";
 }
-.main[role=main] .wrapperAnalysis .subWrapC {
+.main[role=main] .wrapper-analysis .sub-wrap-c {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px 500px 1000 225px;
   grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r2 r2 r2" "r3 r3 r3";
 }
-.main[role=main] .wrapperAnalysis .subWrapC .r1 {
+.main[role=main] .wrapper-analysis .sub-wrap-c .r1 {
   display: flex;
   flex-direction: column;
 }
-.main[role=main] .wrapperAnalysis .subWrapC .r1 h3 {
+.main[role=main] .wrapper-analysis .sub-wrap-c .r1 h3 {
   width: 350px;
 }
-.main[role=main] .wrapperAnalysis .subWrapC .r1 .flexRowR {
+.main[role=main] .wrapper-analysis .sub-wrap-c .r1 .flex-row-r{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.main[role=main] .wrapperAnalysis .subWrapC .r1 .flexRowR p img {
+.main[role=main] .wrapper-analysis .sub-wrap-c .r1 .flex-row-rp img {
   margin: 0;
 }
-.main[role=main] .wrapperAnalysis .subWrapD {
+.main[role=main] .wrapper-analysis .sub-wrap-d {
   grid-template-areas: "h2 h2 h2" ". r1 .";
 }
-.main[role=main] .wrapperAnalysis .subWrapE {
+.main[role=main] .wrapper-analysis .sub-wrap-e {
   grid-template-areas: "h2 h2 h2" "r1 r1 r1";
 }
-.main[role=main] .wrapperAnalysis .subWrapF {
+.main[role=main] .wrapper-analysis .sub-wrap-f {
   grid-template-areas: "h2 h2 h2" "r1 r1 r1" "r1 r1 r1" "r2 r2 r2";
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 {
   display: flex;
   flex-direction: column;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .ifr {
   margin: 0;
   display: flex;
   flex-direction: row;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr .tul,
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr .pol,
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .ifr .kbv {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .ifr .tul,
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .ifr .pol,
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .ifr .kbv {
   width: 405px;
   height: 435px;
   margin: 0;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .screenshots, .main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots, .main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .screenshots p, .main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots p, .main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop p {
   margin: 0;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .screenshots p img, .main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p img {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots p img, .main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop p img {
   margin: 0;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop {
   display: flex;
   flex-direction: row;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop p {
   max-width: 400px;
   padding: 2px;
 }
-.main[role=main] .wrapperAnalysis .subWrapF .r1 .desktop p img {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop p img {
   max-width: 100%;
 }
-.main[role=main] .wrapperAnalysis p code {
+.main[role=main] .wrapper-analysis p code {
   margin: 0;
 }
-.main[role=main] h1 {
-  grid-area: h1;
+
+.main[role=main] .gallery {
+  margin: 0 auto 2em;
+  display: grid;
+  gap: 3em;
 }
-.main[role=main] h2 {
-  grid-area: h2;
+.main[role=main] .gallery .gallery-row {
+  margin: 0;
+  display: grid;
+  gap: 0 3em;
 }
-.main[role=main] h3 {
-  grid-area: h3;
+.main[role=main] .box {
+  border: 2px dashed;
 }
-.main[role=main] .urv {
-  grid-area: urv;
+.main[role=main] .gallery-wrap {
+  max-width: 1396px;
+  grid-template-areas: "r1" "r2" "r3" "r4";
 }
-.main[role=main] .met {
-  grid-area: met;
+.main[role=main] .gallery-wrap * {
+  margin: 0;
 }
-.main[role=main] .res {
-  grid-area: res;
+.main[role=main] .gallery-wrap img,
+.main[role=main] .gallery-wrap picture {
+  max-width: 100%;
 }
-.main[role=main] .ana {
-  grid-area: ana;
+.main[role=main] .gallery-wrap .gallery-columns {
+  max-width: 100%;
+  grid-template-areas: "c1 c2 c3";
 }
-.main[role=main] .ref {
-  grid-area: ref;
+.main[role=main] .gallery-wrap .gallery-columns .c1 a picture p,
+.main[role=main] .gallery-wrap .gallery-columns .c2 a picture p,
+.main[role=main] .gallery-wrap .gallery-columns .c3 a picture p {
+  display: flex;
 }
-.main[role=main] .etc {
-  grid-area: etc;
+.main[role=main] .gallery-wrap .r1 {
+  margin-top: 3em;
 }
-.main[role=main] .tables {
-  grid-area: tbls;
+.main[role=main] .gallery-wrap .r1,
+.main[role=main] .gallery-wrap .r2,
+.main[role=main] .gallery-wrap .r3,
+.main[role=main] .gallery-wrap .r4 {
+  margin-left: 3em;
+  margin-right: 3em;
 }
-.main[role=main] .r1 {
-  grid-area: r1;
+.main[role=main] .gallery-wrap .r4 {
+  margin-bottom: 3em;
 }
-.main[role=main] .r2 {
-  grid-area: r2;
+@media (max-width: 1500px) {
+  .main[role=main] .gallery-wrap .gallery-columns {
+    grid-template-areas: "c1" "c2" "c3";
+    gap: 3em;
+  }
+  .main[role=main] .gallery-wrap .gallery-columns .c1,
+  .main[role=main] .gallery-wrap .gallery-columns .c2,
+  .main[role=main] .gallery-wrap .gallery-columns .c3 {
+    display: flex;
+    justify-content: center;
+  }
 }
-.main[role=main] .r3 {
-  grid-area: r3;
+.main[role=main] img, .main[role=main] embed, .main[role=main] object, .main[role=main] video {
+  max-width: 100%;
+}
+.main[role=main] .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.main[role=main] .embed-container iframe,
+.main[role=main] .embed-container object,
+.main[role=main] .embed-container embed {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .slide {
@@ -6633,14 +6734,14 @@ body table tbody tr {
   background-color: #EEE;
 }
 
-.gridAnalysis .gridAnalysis a:hover {
+.grid-analysis .grid-analysis a:hover {
   color: #293233;
 }
-.gridAnalysis .gridAnalysis .subGridA .r2 {
+.grid-analysis .grid-analysis .sub-grid-a .r2 {
   border-left: #293233;
   border-right: #293233;
 }
-.gridAnalysis .box {
+.grid-analysis .box {
   border: 2px solid #B1B1B1;
   background-color: #EEE;
 }

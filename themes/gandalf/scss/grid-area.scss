@@ -1,0 +1,83 @@
+.wrapper-analysis {
+    h1 {
+        grid-area: h1;
+    }
+
+    h2 {
+        grid-area: h2;
+    }
+
+    h3 {
+        grid-area: h3;
+    }
+
+    .urv {
+        grid-area: urv;
+    }
+
+    .met {
+        grid-area: met;
+    }
+
+    .res {
+        grid-area: res;
+    }
+
+    .ana {
+        grid-area: ana;
+    }
+
+    .ref {
+        grid-area: ref;
+    }
+
+    .etc {
+        grid-area: etc;
+    }
+
+    .tables {
+        grid-area: tbls
+    }
+
+    .r1 {
+        grid-area: r1;
+    }
+
+    .r2 {
+        grid-area: r2;
+    }
+
+    .r3 {
+        grid-area: r3;
+    }
+}
+
+.gallery {
+    .row1 {
+        grid-area: r1;
+    }
+
+    .row2 {
+        grid-area: r2;
+    }
+
+    .row3 {
+        grid-area: r3;
+    }
+
+    .col1 {
+        grid-area: c1;
+    }
+    
+    .col2 {
+        grid-area: c2;
+    }
+
+    .col3 {
+        grid-area: c3;
+    }
+
+    .col4 {
+        grid-area: c4;
+    }
+}

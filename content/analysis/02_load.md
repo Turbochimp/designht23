@@ -4,13 +4,13 @@ Description: This article discusses load times on various websites.
 Template: technologies
 ---
 
-<div class = "box gridAnalysis wrapperAnalysis" markdown=1>
+<div class = "box .grid-analysis wrapper-analysis" markdown=1>
 
 
 Analysis of styling in Newssites
 =======================
 
-<div class="subGridA subWrapA urv" markdown=1>
+<div class="sub-grid-a sub-wrap-a urv" markdown=1>
 
 Selection
 -----------------------
@@ -45,7 +45,7 @@ On their main site the customs agency provides updated information with a total 
 
 </div>
 
-<div class="subGridA subWrapE met" markdown=1>
+<div class="sub-grid-a sub-wrap-e met" markdown=1>
 
 Methodology
 -----------------------
@@ -69,7 +69,7 @@ Firefox is set to have:
 
 </div>
 
-<div class="subGridA subWrapF res" markdown=1>
+<div class="sub-grid-a sub-wrap-f res" markdown=1>
 
 Results
 -----------------------
@@ -77,7 +77,7 @@ Results
 
 <div class = "r1" markdown=1>
 
-<div class="flexRowR ifr" markdown=1>
+<div class="flex-row-rifr" markdown=1>
 
 <iframe class="kbv" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6INNBnRPFYnkrwy-q-ZRdlC8CowUM8eQkUmPlEEIk9d2c5Rw4ujBs-Q4EC5LhuXUDunL05WlK4C2F/pubhtml?gid=1048930559&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
@@ -88,7 +88,7 @@ Results
 
 </div>  
 
-<div class="flexRowR screenshots" markdown=1>
+<div class="flex-row-rscreenshots" markdown=1>
 
 ![Polisen](%assets_url%/img/pol-mob.jpeg "Polisen Mobil")
 
@@ -98,7 +98,7 @@ Results
 
 </div>
 
-<div class="flexRowR desktop" markdown=1>
+<div class="flex-row-rdesktop" markdown=1>
 
 ![Polisen](%assets_url%/img/pol-desk.jpeg "Polisen")
 
@@ -153,7 +153,7 @@ It would be beneficial for the host and the visitor have less massive images be 
 
 </div>
 
-<div class="subGridA subWrapE ana" markdown=1>
+<div class="sub-grid-a sub-wrap-e ana" markdown=1>
 
 Analysis
 -----------------------
@@ -200,7 +200,7 @@ Due to the larger size of some of the image files and fonts, these sites, except
 
 </div>
 
-<div class="subGridA subWrapD etc" markdown=1>
+<div class="sub-grid-a sub-wrap-d etc" markdown=1>
 
 Author
 -----------------------
@@ -213,7 +213,7 @@ This article was written by Benjamin Thulesen.
 
 </div>
 
-<div class="subGridA subWrapA ref" markdown=1>
+<div class="sub-grid-a sub-wrap-a ref" markdown=1>
 
 References
 -----------------------
