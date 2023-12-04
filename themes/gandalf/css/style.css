@@ -6458,12 +6458,12 @@ pre code {
 .main[role=main] .wrapper-analysis .sub-wrap-c .r1 h3 {
   width: 350px;
 }
-.main[role=main] .wrapper-analysis .sub-wrap-c .r1 .flex-row-r{
+.main[role=main] .wrapper-analysis .sub-wrap-c .r1 .flex-row-r {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.main[role=main] .wrapper-analysis .sub-wrap-c .r1 .flex-row-rp img {
+.main[role=main] .wrapper-analysis .sub-wrap-c .r1 .flex-row-r p img {
   margin: 0;
 }
 .main[role=main] .wrapper-analysis .sub-wrap-d {
@@ -6577,7 +6577,10 @@ pre code {
     justify-content: center;
   }
 }
-.main[role=main] img, .main[role=main] embed, .main[role=main] object, .main[role=main] video {
+.main[role=main] img,
+.main[role=main] embed,
+.main[role=main] object,
+.main[role=main] video {
   max-width: 100%;
 }
 .main[role=main] .embed-container {
