@@ -112,7 +112,7 @@ Results
 
 <div class = "r1" markdown=1>
 
-<div class="flexRowR" markdown=1>
+<div class="flex-row-r" markdown=1>
 
 ### Aftonbladet:
 
@@ -122,7 +122,7 @@ Results
 
 </div>
 
-<div class="flexRowR" markdown=1>
+<div class="flex-row-r" markdown=1>
 
 ![Aftonbladet](%assets_url%/img/aftonb.jpg "Aftonbladet")
 

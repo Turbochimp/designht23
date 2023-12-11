@@ -7,7 +7,7 @@ Template: technologies
 <div class = "box .grid-analysis wrapper-analysis" markdown=1>
 
 
-Analysis of styling in Newssites
+Analysis of loadtimes on government websites.
 =======================
 
 <div class="sub-grid-a sub-wrap-a urv" markdown=1>
@@ -77,7 +77,7 @@ Results
 
 <div class = "r1" markdown=1>
 
-<div class="flex-row-rifr" markdown=1>
+<div class="flex-row-r ifr" markdown=1>
 
 <iframe class="kbv" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6INNBnRPFYnkrwy-q-ZRdlC8CowUM8eQkUmPlEEIk9d2c5Rw4ujBs-Q4EC5LhuXUDunL05WlK4C2F/pubhtml?gid=1048930559&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
@@ -88,7 +88,7 @@ Results
 
 </div>  
 
-<div class="flex-row-rscreenshots" markdown=1>
+<div class="flex-row-r screenshots" markdown=1>
 
 ![Polisen](%assets_url%/img/pol-mob.jpeg "Polisen Mobil")
 
@@ -98,7 +98,7 @@ Results
 
 </div>
 
-<div class="flex-row-rdesktop" markdown=1>
+<div class="flex-row-r desktop" markdown=1>
 
 ![Polisen](%assets_url%/img/pol-desk.jpeg "Polisen")
 

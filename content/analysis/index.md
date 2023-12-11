@@ -8,7 +8,7 @@ Template: technologies
 
 ### [Load](%base_url%?analysis/02_load)
 
-### [Design Principles](%base_url%?analysis/03_design_principles.md)
+### [Design Principles](%base_url%?analysis/03_design_principles)
 
 
 # Laddar in bilden som vanligt
