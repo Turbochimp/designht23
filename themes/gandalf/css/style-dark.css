@@ -6428,9 +6428,7 @@ pre code {
 .main[role=main] .wrapper-analysis {
   max-width: 1280px;
   margin: 0 auto;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "h1" "urv" "met" "res" "res" "ana" "ref" "etc";
+  grid-template-areas: "h1" "urv" "met" "res" "res2" "ana" "ref" "etc";
 }
 .main[role=main] .wrapper-analysis .etc {
   text-align: center;
@@ -6500,24 +6498,33 @@ pre code {
   height: 435px;
   margin: 0;
 }
-.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .flex-row-r {
-  margin: 0;
-}
-.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .flex-row-r .screenshots,
-.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .flex-row-r .desktop {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots,
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .flex-row-r .screenshots p,
-.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .flex-row-r .desktop p {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots p,
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop p {
   margin: 0;
 }
-.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .flex-row-r .screenshots p img,
-.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .flex-row-r .desktop p img {
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots p img,
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop p img {
   margin: 0;
+}
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots picture,
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop picture {
+  margin: 0;
+}
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots picture img,
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop picture img {
+  margin: 0;
+}
+.main[role=main] .wrapper-analysis .sub-wrap-f .r1 .screenshots {
+  display: flex;
+  flex-direction: row;
 }
 .main[role=main] .wrapper-analysis .sub-wrap-f .r1 .desktop {
   display: flex;

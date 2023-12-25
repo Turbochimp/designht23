@@ -6428,9 +6428,7 @@ pre code {
 .main[role=main] .wrapper-analysis {
   max-width: 1280px;
   margin: 0 auto;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "h1" "urv" "met" "res" "res" "ana" "ref" "etc";
+  grid-template-areas: "h1" "urv" "met" "res" "res2" "ana" "ref" "etc";
 }
 .main[role=main] .wrapper-analysis .etc {
   text-align: center;

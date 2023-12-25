@@ -129,3 +129,81 @@ Color and contrast for statistics vary between each site, but commonly, shades o
 </div>
 
 </div>
+
+<div class="sub-grid-a sub-wrap-e ana" markdown=1>
+
+Analysis
+-----------------------
+
+<div class = "r1" markdown=1>
+
+Most prominently, these websites discussed all share a common property of how positioning placing the main funcion of the website at the center spot on the website will focus the website users to a specific focal point. As this is element of design is seen on all three websites, it cements that this aspect of website design is an efficient principle to employ.
+
+Additional content, if any is present, is also applied with the concent of continuity in mind, directly above or below the main focus. Users are able to easily identify and find the search bar on the website, however will always, most likely, see the advertisements or other related products placed above or below. 
+
+As for the content pages themselves, for character information and statistics, grid theory with the rule of thirds is loosely applied, with the main content across all sites being applied around the center half of the webpage-
+
+Dividing the main content in the center into three loosely defined columns, allows for the large amount of information to be structured in a way that is more comprehensible for the user.
+
+Much of the content spans a varying number of columns, covering one, two or all three depending on the size of the content displayed, depending on the graphics used to display the information contained. 
+
+Despite the niché target demographic of these websites, gamers dedicated enough to research for more information characters and other players, the fundamental concepts of web design still apply, in order to create user retention and improve ease of accesibility. 
+
+
+#### Applying these concepts to my Portfolio
+
+The main takeaway from these websites, and the concepts applied in their creation that should be applied to my own Portfolio should be the concepts of continuity, layout, object placement and the rule of thirds, along with the contrast used with darkmode and lightmode.
+
+With regards to the rule of thirds, and centering, I apply this theory when structuring articles such as this one, with the article centered on the page split into three columns, allowing content to span between one, or all columns where appropriate.
+
+This creates more structure for the articles, allowing them to be read more easily, similar to how the content is presented on the websites examined.
+
+The pages home, about and hobby pages in my portfolio, lack this structure. To improve the structure and make the site content easier for a viewer to parse, this should be amended, so that the aformentioned pages contain a structure similar to that of the articles that have been written for kmom04-06.
+
+
+</div>
+
+</div>
+
+<div class="sub-grid-a sub-wrap-d etc" markdown=1>
+
+Author
+-----------------------
+
+<div class = "r1" markdown=1>
+
+This article was written by Benjamin Thulesen.
+
+</div>
+
+</div>
+
+<div class="sub-grid-a sub-wrap-a ref" markdown=1>
+
+References
+-----------------------
+
+<div class = "r1" markdown=1>
+
+Sites used in this article:
+
+- [u.gg](https://www.u.gg)
+- [op.gg](https://www.op.gg)
+- [Deeplol.gg]((https://www.deeeplol.gg))
+
+</div>
+
+<div class = "r2" markdown=1>
+
+This exercise is part of kmom06 in the design course: [Teknisk webbdesign och användbarhet](https://dbwebb.se/kurser/design-v3)
+
+</div>
+
+<div class = "r3" markdown=1>
+
+Other sources used:
+
+1. [Canva](https://www.canva.com/learn/design-elements-principles/)
+2. [The Principles of Beautiful Web Design](https://dbwebb.se/kunskap/boken-the-principles-of-beautiful-web-design)
+
+</div>
